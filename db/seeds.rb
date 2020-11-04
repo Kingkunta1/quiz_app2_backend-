@@ -7,11 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-question_1 = Questione.create(name:"How many")
-question_2 = Questione.create(name:"Whats the werd")
-question_3 = Questione.create(name:"How old are you")
-question_4 = Questione.create(name:"What's you name")
-question_5 = Questione.create(name:"Which one")
+question_1 = Question.create(name:"How many")
+question_2 = Question.create(name:"Whats the werd")
+question_3 = Question.create(name:"How old are you")
+question_4 = Question.create(name:"What's you name")
+question_5 = Question.create(name:"Which one")
 
 
 answer_1 = Answer.create(name: "yes", score: 0, question_id:1)
