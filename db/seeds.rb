@@ -14,8 +14,8 @@ question_4 = Question.create(name:"What's you name")
 question_5 = Question.create(name:"Which one")
 
 
-answer_1 = Answer.create(name: "yes", score: 0, question_id:1)
-answer_2 = Answer.create(name: "no", score: 1, question_id:2)
-answer_3 = Answer.create(name: "no", score: 2, question_id:3)
-answer_4 = Answer.create(name: "no", score: 3, question_id:4)
-answer_5 = Answer.create(name: "yes", score: 4, question_id:5)
+answer_1 = Answer.create(name: "yes", score: 0,  correct:true, question_id:1)
+answer_2 = Answer.create(name: "no",  score: 1,  correct:false, question_id:2)
+answer_3 = Answer.create(name: "no",  score: 2,  correct:true, question_id:3)
+answer_4 = Answer.create(name: "no",  score: 3,  correct:false, question_id:4)
+answer_5 = Answer.create(name: "yes", score: 4,  correct:true, question_id:5)
